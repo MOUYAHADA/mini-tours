@@ -5,6 +5,8 @@
 {% block content %}
 <!-- tours list -->
 <h1 class="text-3xl text-gray-700 font-semibold my-16 text-center">Explore tours</h1>
+
+{% if tours %}
 <ul class="md:px-24">
   <li>
     {% for tour in tours %}
@@ -21,6 +23,10 @@
     {% endfor %}
   </li>
 </ul>
+{% else %}
+    <p>No tours were found</p>
+{% endif %}
+
 
 <!-- pagination -->
 {% if page_count > 1 %}

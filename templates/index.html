@@ -2,10 +2,10 @@
 {% block content %}
 <h1 class="mt-36 mb-20 text-center text-5xl">Welcome to Mini Tours</h1>
 <div class="px-10 text-center mx-auto mb-36">
-    <form class="">
+    <form class="" action="/tours/" method="get">
       <label class="block text-gray-500" for="">Search for local tours</label>
-      <input type="text" class="mt-2 px-2 py-1 border border-1 outline-yellow-600 w-full max-w-sm rounded-md" name="" id="" aria-describedby="helpId" placeholder="Search for local tours">
-      <button></button>
+      <input type="text" class="mt-2 px-2 py-1 border border-1 outline-yellow-600 w-full max-w-sm rounded-l-md" name="search" id="search" aria-describedby="helpId" placeholder="Search for local tours">
+      <button class="bg-yellow-600 rounded-r-md px-3 py-2"><i class="fa fa-search text-white"></i></button>
     </form>
 </div>
 <div class="mb-16">
