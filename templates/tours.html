@@ -1,41 +1,64 @@
 {% extends 'layout.html' %}
-{% block title %}
-    - all tours
-{% endblock title %}
+{% block title %} 
+- all tours {% endblock title %}
 {% block content %}
 <!-- tours list -->
-<h1 class="text-3xl text-gray-700 font-semibold my-16 text-center">Explore tours</h1>
+<h1 class="text-3xl text-gray-700 font-semibold my-16 text-center">
+	Explore tours
+</h1>
 
 {% if tours %}
 <ul class="md:px-24">
-  <li>
-    {% for tour in tours %}
-    <div class="card rounded-md border border-gray-300 p-3 flex mb-3 relative">
-      <div class="w-2/5 overflow-hidden rounded-sm mr-6">
-        <img class="w-full object-cover bg-cover" src="{{ tour.image }}" alt="">
-      </div>
-      <div class="card-body w-full pb-6">
-        <h4 class="card-title text-xl font-semibold text-gray-700">{{ tour.name }}</h4>
-        <p class="card-text text-gray-500 mt-2 text-justify">{{ tour.description }}</p>
-      </div>
-      <a class="absolute bottom-2 right-3 border border-yellow-700s rounded-md font-bold text-gray-600 p-1 text-xs opacity-65 hover:opacity-100 hover:bg-yellow-200 transition ease-linear duration-100" href="/tours/{{ tour.slug }}">View details >></a>
-    </div>
-    {% endfor %}
-  </li>
+	<li>
+		{% for tour in tours %}
+		<div class="card rounded-md border border-gray-300 p-3 flex mb-3 relative">
+			<div class="text-nowrap absolute right-32 bottom-3 text-gray-600 text-xs">
+				<span class="w-min text-md bg-gray-100 px-2 py-1 rounded-md">
+					<i class="fa fa-clock mr-2"></i>{{ tour.duration }}</span
+				>
+				<span class="w-min text-md bg-gray-100 px-2 py-1 rounded-md"
+					><i class="fa-solid fa-coins"></i> {{ tour.price }}
+					<span class="">€</span></span
+				>
+			</div>
+			<div class="w-2/5 overflow-hidden rounded-sm mr-6">
+				<img
+					class="w-full object-cover bg-cover"
+					src="{{ tour.image }}"
+					alt=""
+				/>
+			</div>
+			<div class="card-body w-full pb-6">
+				<h4 class="card-title text-xl font-semibold text-gray-700">
+					{{ tour.name }}
+				</h4>
+				<p class="card-text text-gray-500 mt-2 text-justify">
+					{{ tour.description }}
+				</p>
+			</div>
+			<a
+				class="absolute bottom-2 right-3 border border-yellow-700s rounded-md font-bold text-gray-600 p-1 text-xs opacity-65 hover:opacity-100 hover:bg-yellow-200 transition ease-linear duration-100"
+				href="/tours/{{ tour.slug }}"
+				>View details >></a
+			>
+		</div>
+		{% endfor %}
+	</li>
 </ul>
 {% else %}
-    <p>No tours were found</p>
+<p>No tours were found</p>
 {% endif %}
-
 
 <!-- pagination -->
 {% if page_count > 1 %}
 <ul class="flex justify-center mt-14">
-  {% for i in range(1, page_count + 1) %}
-  <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{i}}">{{ i }}</a></li>
-  {% endfor %}
-  <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{last}}">>></a></li>
+	{% for i in range(1, page_count + 1) %}
+	<li class="px-3 py-2 bg-gray-100 underline text-yellow-600">
+		<a href="?page={{i}}">{{ i }}</a>
+	</li>
+	{% endfor %}
+	<li class="px-3 py-2 bg-gray-100 underline text-yellow-600">
+		<a href="?page={{last}}">>></a>
+	</li>
 </ul>
-{% endif %}
-
-{% endblock content %}
+{% endif %} {% endblock content %}

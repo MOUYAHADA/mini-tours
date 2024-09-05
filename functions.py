@@ -28,7 +28,7 @@ def save_message(name, email, subject, message):
         "subject": clean(subject),
         "message": clean(message, tags=allowed_tags)
         }
-    store_as_json(data, 'messages.json')
+    store_as_json(data, 'data/messages.json')
 
 def save_booking(name, email, participants, date, tour):
     """Stores booking to local file"""
