@@ -1,0 +1,70 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mini Tours{% block title %}{% endblock title %}</title>
+		<!-- <script src="/static/jquery.js"></script> -->
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='/CSS/styles.css') }}"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='/CSS/output.css') }}"
+		/>
+		<!-- Frontawesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+	</head>
+	<body>
+		<div class="max-w-screen-lg mx-auto">
+			<nav
+				class="flex px-6 py-3 items-center w-full bg-gray-50 text-nowrap flex-wrap md:flex-nowrap"
+			>
+				<a class="text-2xl font-bold text-gray-800" href="#">Mini Tours</a>
+				<div class="flex gap-2 w-full justify-between items-center flex-wrap md:flex-nowrap">
+					<ul class="flex items-center gap-2 mt-1 ml-2 flex-wrap md:flex-nowrap">
+						<li class="text-gray-600 hover:text-gray-700 hover:bg-gray-100 px-2 w-full md:w-auto">
+							<a class="nav-link" href="/">Home</a>
+						</li>
+						<li class="text-gray-600 hover:text-gray-700 hover:bg-gray-100 px-2 w-full">
+							<a class="nav-link" href="/tours">Tours</a>
+						</li>
+						<li class="text-gray-600 hover:text-gray-700 hover:bg-gray-100 px-2 w-full md:w-auto">
+							<a class="nav-link" href="/destinations">Destinations</a>
+						</li>
+						<li class="text-gray-600 hover:text-gray-700 hover:bg-gray-100 px-2 w-full md:w-auto">
+							<a class="nav-link" href="/contact">Contact us</a>
+						</li>
+					</ul>
+					<form class="flex items-center w-full md:w-auto">
+						<input
+					class="px-2 py-1 rounded-md border border-gray-200 focus:outline-yellow-60 outline-yellow-600 w-full md:w-auto"
+							type="text"
+							placeholder="Search for tours"
+						/>
+						<button class="rounded-md mx-2 px-2 py-1.5 bg-yellow-600 text-white uppercase text-sm tracking-wide" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+			<main class="p-4">{% block content %} {% endblock content %}</main>
+
+			<footer class="w-full bg-gray-100 p-4">
+				<div class="flex gap-16 mx-auto w-max p-6">
+					<ul class="">
+						<li class="text-gray-500 hover:text-gray-700"><a href="/privacy-and-policy">Policy & Privacy</a></li>
+						<li class="text-gray-500 hover:text-gray-700"><a href="/privacy-and-policy">Terms of service</a></li>
+					</ul>
+					<ul class="text-gray-500 hover:text-gray-700">
+						<li class="group"><a href="#"><i class="fa-brands fa-square-facebook group-hover:text-blue-500"></i> @minitours</a></li>
+						<li class="group"><a href="#"><i class="fa-brands fa-instagram group-hover:text-orange-500"></i> @minitours</a></li>
+					</ul>
+				</div>
+				<p class="text-center text-xs uppercase text-gray-500">&copy; {{ year }} Mini Tours</p>
+			</footer>
+		</div>
+		<!-- Jquery CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+		<script src="/static/script.js" defer></script>
+	</body>
+</html>

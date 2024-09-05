@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div class="list-group">
+        {% for tour in tours %}
+        <a href="#" class="list-group-item list-group-item-action active">Active item</a>
+        {% endfor %}
+        <a href="#" class="list-group-item list-group-item-action">Item</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Disabled item</a>
+    </div>
+{% endblock content %}

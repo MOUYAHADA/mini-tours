@@ -1,0 +1,4 @@
+*.css.map
+tailwindcss.config.js
+input.css
+styles.scss

@@ -1,0 +1,151 @@
+[
+    {
+      "id": 1,
+      "slug": "marrakech-city-tour",
+      "name": "Marrakech City Tour",
+      "duration": "1 day",
+      "price": 50,
+      "description": "Explore the vibrant city of Marrakech, visiting iconic sites like Jemaa el-Fnaa, Koutoubia Mosque, and the Majorelle Garden.",
+      "image": "https://unsplash.com/photos/OiMnZOe01bA/download?sixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bWFycmFrZWNoJTIwY2l0eXxmcnwwfHx8fDE3MjU0NzYzMjh8MA&force=true&w=640"
+    },
+    {
+        "id": 2,
+        "slug": "atlas-mountains",
+        "name": "Atlas Mountains Day Trip",
+        "duration": "1 day",
+        "price": 70,
+        "description": "A day trip to the Atlas Mountains, including visits to traditional Berber villages and stunning viewpoints.",
+        "image": "https://unsplash.com/photos/P7jJavHkwUM/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGF0bGFzJTIwbW91bnRhaW5zfGZyfDB8fHx8MTcyNTQzNzY5MXww&force=true&w=640"
+    },
+    {
+        "id": 3,
+        "slug": "sahara-desert-adventure",
+        "name": "Sahara Desert Adventure",
+        "duration": "3 days",
+        "price": 300,
+        "description": "Experience the Sahara Desert with camel trekking, dune camping, and visits to ancient kasbahs.",
+      "image": "https://plus.unsplash.com/premium_photo-1661962697678-9bf7f75eb561?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "name": "Chefchaouen Blue City Tour",
+        "duration": "1 day",
+        "price": 60,
+        "description": "Discover the blue-washed streets of Chefchaouen, a picturesque town in the Rif Mountains.",
+        "image": "https://plus.unsplash.com/premium_photo-1661962697678-9bf7f75eb561?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "name": "Fes Historical Tour",
+      "duration": "1 day",
+      "price": 55,
+      "description": "Explore the ancient city of Fes, including visits to the Medina, Al Quaraouiyine University, and traditional tanneries.",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Essaouira Coastal Excursion",
+      "duration": "1 day",
+      "price": 65,
+      "description": "Visit the coastal city of Essaouira, known for its beautiful beaches, historic medina, and vibrant arts scene."
+    },
+    {
+      "id": 7,
+      "name": "Casablanca City Tour",
+      "duration": "1 day",
+      "price": 50,
+      "description": "A guided tour of Casablanca, including the Hassan II Mosque, the Corniche, and the Royal Palace."
+    },
+    {
+      "id": 8,
+      "name": "Ouzoud Waterfalls Tour",
+      "duration": "1 day",
+      "price": 80,
+      "description": "Visit the stunning Ouzoud Waterfalls, one of Morocco’s most beautiful natural attractions."
+    },
+    {
+      "id": 9,
+      "name": "Merzouga Desert Experience",
+      "duration": "4 days",
+      "price": 400,
+      "description": "A journey into the heart of the Merzouga Desert with camel rides, sandboarding, and nights under the stars."
+    },
+    {
+      "id": 10,
+      "name": "Tangier and Asilah Day Trip",
+      "duration": "1 day",
+      "price": 75,
+      "description": "Explore the northern cities of Tangier and Asilah, known for their historical medinas and coastal charm."
+    },
+    {
+      "id": 11,
+      "name": "Meknes and Volubilis Tour",
+      "duration": "1 day",
+      "price": 60,
+      "description": "Discover the imperial city of Meknes and the ancient Roman ruins of Volubilis."
+    },
+    {
+      "id": 12,
+      "name": "Agadir Beach Day",
+      "duration": "1 day",
+      "price": 50,
+      "description": "Relax on the beautiful beaches of Agadir, with optional water sports and seaside activities."
+    },
+    {
+      "id": 13,
+      "name": "Rabat City Tour",
+      "duration": "1 day",
+      "price": 55,
+      "description": "Visit the capital city of Rabat, including the Hassan Tower, Royal Palace, and the Kasbah of the Udayas."
+    },
+    {
+      "id": 14,
+      "name": "Dades Valley and Todra Gorge",
+      "duration": "2 days",
+      "price": 150,
+      "description": "A scenic tour through the Dades Valley and the impressive Todra Gorge, with stops at kasbahs and oases."
+    },
+    {
+      "id": 15,
+      "name": "Ait Benhaddou Kasbah Tour",
+      "duration": "1 day",
+      "price": 70,
+      "description": "Visit the famous Ait Benhaddou Kasbah, a UNESCO World Heritage site featured in many movies."
+    },
+    {
+      "id": 16,
+      "name": "Ouarzazate Film Studio Tour",
+      "duration": "1 day",
+      "price": 65,
+      "description": "Explore the 'Hollywood of Morocco,' including the Atlas Film Studios and the Kasbah Taourirt."
+    },
+    {
+      "id": 17,
+      "name": "Tangier to Chefchaouen Overnight",
+      "duration": "2 days",
+      "price": 120,
+      "description": "A short getaway to the enchanting blue city of Chefchaouen from Tangier, with an overnight stay."
+    },
+    {
+      "id": 18,
+      "name": "Marrakech to Zagora Desert Tour",
+      "duration": "2 days",
+      "price": 180,
+      "description": "A quick desert escape to Zagora with camel rides and a night in a desert camp."
+    },
+    {
+      "id": 19,
+      "name": "Moroccan Cooking Class",
+      "duration": "Half-day",
+      "price": 45,
+      "description": "Learn to cook traditional Moroccan dishes with a hands-on cooking class in Marrakech."
+    },
+    {
+      "id": 20,
+      "name": "High Atlas Trekking Adventure",
+      "duration": "3 days",
+      "price": 250,
+      "description": "Trek through the High Atlas Mountains, exploring remote Berber villages and stunning landscapes."
+    }
+  ]
+  

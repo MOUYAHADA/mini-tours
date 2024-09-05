@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1 class="mt-36 mb-20 text-center text-5xl">Welcome to Mini Tours</h1>
+<div class="px-10 text-center mx-auto mb-36">
+    <form class="">
+      <label class="block text-gray-500" for="">Search for local tours</label>
+      <input type="text" class="mt-2 px-2 py-1 border border-1 outline-yellow-600 w-full max-w-sm rounded-md" name="" id="" aria-describedby="helpId" placeholder="Search for local tours">
+      <button></button>
+    </form>
+</div>
+<div class="mb-16">
+    <span class="block text-center w-full text-2xl font-semibold mb-6">Featured tours</span>
+    <div class="flex flex-wrap mx-auto justify-center">
+        {% for tour in tours %}
+            <div class="card m-2 rounded-md overflow-hidden w-72 relative pb-12 border border-gray-300">
+                <img class="w-full h-44 bg-cover" alt="{{ tour.image_alt }}" src="{{ tour.image }}">
+                <div class="card-body p-2">
+                    <h4 class="card-title text-lg font-semibold">{{ tour.name }}</h4>
+                    <p class="card-text text-sm mt-4">{{ tour.description }}</p>
+                    <a class="absolute bottom-2 border border-yellow-700s rounded-md font-bold text-gray-600 p-1 hover:bg-gray-100 text-xs" href="/tours/{{ tour.slug }}">View details >></a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
