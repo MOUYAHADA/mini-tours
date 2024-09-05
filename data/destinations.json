@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "slug": "marrakech",
+        "name": "Marrakech",
+        "description": "A vibrant city known for its historic medina, bustling souks, and beautiful gardens. Explore iconic sites like Jemaa el-Fnaa and the Koutoubia Mosque.",
+        "image": "https://unsplash.com/photos/OiMnZOe01bA/download?sixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bWFycmFrZWNoJTIwY2l0eXxmcnwwfHx8fDE3MjU0NzYzMjh8MA&force=true&w=640"
+    },
+    {
+        "id": 2,
+        "slug": "chefchaouen",
+        "name": "Chefchaouen",
+        "description": "Known as the Blue City, Chefchaouen is famous for its blue-washed buildings and stunning mountain scenery. A perfect place for relaxation and photography.",
+        "image": "https://unsplash.com/photos/8x8g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 3,
+        "slug": "fes",
+        "name": "Fes",
+        "description": "Fes is one of the oldest cities in Morocco, known for its medieval architecture, vibrant souks, and the world's oldest university, Al Quaraouiyine.",
+        "image": "https://unsplash.com/photos/3x3g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 4,
+        "slug": "essaouira",
+        "name": "Essaouira",
+        "description": "A coastal city known for its historic medina, beautiful beaches, and vibrant arts scene. Essaouira is a UNESCO World Heritage site.",
+        "image": "https://unsplash.com/photos/4x4g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 5,
+        "slug": "agadir",
+        "name": "Agadir",
+        "description": "Agadir is famous for its beautiful beaches and sunny weather. It's a great destination for relaxation and water sports.",
+        "image": "https://unsplash.com/photos/5x5g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 6,
+        "slug": "ouarzazate",
+        "name": "Ouarzazate",
+        "description": "Known as the 'Hollywood of Morocco,' Ouarzazate is famous for its film studios and the stunning Ait Benhaddou kasbah.",
+        "image": "https://unsplash.com/photos/6x6g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 7,
+        "slug": "tangier",
+        "name": "Tangier",
+        "description": "Tangier is a port city that offers a mix of cultures and stunning coastal views. It's a gateway to exploring both Morocco and Europe.",
+        "image": "https://unsplash.com/photos/7x7g1g1g1g1/download?force=true&w=640"
+    },
+    {
+        "id": 8,
+        "slug": "merzouga",
+        "name": "Merzouga",
+        "description": "Merzouga is known for its stunning sand dunes and desert experiences. It's a popular starting point for Sahara Desert adventures.",
+        "image": "https://unsplash.com/photos/8x8g1g1g1g1/download?force=true&w=640"
+    }
+]

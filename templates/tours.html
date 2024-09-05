@@ -23,12 +23,13 @@
 </ul>
 
 <!-- pagination -->
-
+{% if page_count > 1 %}
 <ul class="flex justify-center mt-14">
   {% for i in range(1, page_count + 1) %}
-    <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{i}}">{{ i }}</a></li>
-    {% endfor %}
-    <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{last}}">>></a></li>
-  </ul>
+  <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{i}}">{{ i }}</a></li>
+  {% endfor %}
+  <li class="px-3 py-2 bg-gray-100 underline text-yellow-600"><a href="?page={{last}}">>></a></li>
+</ul>
+{% endif %}
 
 {% endblock content %}

@@ -36,3 +36,10 @@ h1.tour-title {
 div.card {
   min-width: 177px;
 }/*# sourceMappingURL=styles.css.map */
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -20px;
+}

@@ -16,8 +16,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		
 	</head>
-	<body>
-		<div class="max-w-screen-lg mx-auto">
+	<body class="h-full">
+		<div class="max-w-screen-lg mx-auto h-full wrapper flex flex-col">
 			<nav
 				class="flex px-6 py-3 items-center w-full bg-gray-50 text-nowrap flex-wrap md:flex-nowrap"
 			>
@@ -47,7 +47,7 @@
 					</form>
 				</div>
 			</nav>
-			<main class="p-4">{% block content %} {% endblock content %}</main>
+			<main class="p-4 flex-1">{% block content %} {% endblock content %}</main>
 
 			<footer class="w-full bg-gray-100 p-4">
 				<div class="flex gap-16 mx-auto w-max p-6">
