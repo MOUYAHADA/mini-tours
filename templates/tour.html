@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block content %}
     <h1 class="my-16 text-3xl font-semibold text-gray-600 text-center">{{ description.title }}</h1>
-    
+    <span>{{ Response if Response else "" }}</span>
     <div class="rounded-md border border-3 border-yellow-600 overflow-hidden max-w-screen-md mx-auto">
         <img src="{{tour.image}}" class="w-full" alt="">
     </div>

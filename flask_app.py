@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect
 from datetime import date
 from math import ceil
 import json, re
+from functions import save_booking, save_message, get_bookings, get_messages
 
 app = Flask(__name__)
 
@@ -84,6 +85,24 @@ def destination(name):
 @app.get('/contact', strict_slashes=False)
 def contact():
     return render_template('contact.html')
+
+@app.post('/contact')
+def post_contact():
+    name = request.form['name']
+    email = request.form['email']
+    subject = request.form['subject']
+    message = request.form['message']
+    save_message(name, email, subject, message)
+    return redirect('/contact', 200)
+
+@app.post('/tours/<slug>')
+def post_booking(slug):
+    name = request.form['name']
+    email = request.form['email']
+    participants = request.form['participants']
+    date = request.form['date']
+    save_booking(name, email, participants, date, tour=slug)
+    return redirect(f'/tours/{slug}', 200)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
