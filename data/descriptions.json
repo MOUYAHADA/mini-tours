@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "slug": "marrakech-city-tour",
+        "title": "Discover the Magic of Marrakech",
+        "introduction": "Marrakech, a city that pulses with life, is a must-visit destination for travelers seeking a blend of culture, history, and vibrant markets.",
+        "content": "On this one-day tour, you will explore iconic sites such as Jemaa el-Fnaa, where street performers and food stalls create a lively atmosphere. Visit the stunning Koutoubia Mosque, the largest mosque in Marrakech, and the enchanting Majorelle Garden, a serene oasis filled with exotic plants and vibrant colors. This tour offers a perfect introduction to the rich heritage and lively spirit of Marrakech.",
+        "conclusion": "Join us for an unforgettable day in Marrakech, where every corner reveals a new adventure."
+    },
+    {
+        "id": 2,
+        "slug": "atlas-mountains",
+        "title": "A Day in the Atlas Mountains",
+        "introduction": "Escape the hustle and bustle of the city with a day trip to the breathtaking Atlas Mountains.",
+        "content": "This tour takes you through stunning landscapes, where you will visit traditional Berber villages and enjoy panoramic views. Experience the warm hospitality of the locals and learn about their culture and traditions. The day is filled with opportunities for photography and exploration, making it a perfect getaway for nature lovers.",
+        "conclusion": "Experience the beauty of the Atlas Mountains and create memories that will last a lifetime."
+    },
+    {
+        "id": 3,
+        "slug": "sahara-desert-adventure",
+        "title": "Sahara Desert Adventure: A Journey Like No Other",
+        "introduction": "Embark on a three-day adventure into the heart of the Sahara Desert, where the golden dunes await.",
+        "content": "This tour includes camel trekking across the vast desert, dune camping under the stars, and visits to ancient kasbahs. Experience the tranquility of the desert and the thrill of sandboarding down the dunes. Each night, gather around a campfire and enjoy traditional music and storytelling.",
+        "conclusion": "The Sahara Desert is a place of wonder and beauty, and this adventure will leave you with unforgettable memories."
+    },
+    {
+        "id": 4,
+        "slug": "chefchaouen-blue-city-tour",
+        "title": "Explore the Blue City of Chefchaouen",
+        "introduction": "Chefchaouen, known for its stunning blue-washed streets, is a picturesque town nestled in the Rif Mountains.",
+        "content": "On this one-day tour, wander through the charming alleys, visit local artisan shops, and enjoy breathtaking views of the surrounding mountains. The unique blue hues of the buildings create a serene atmosphere, perfect for relaxation and exploration.",
+        "conclusion": "Discover the beauty and tranquility of Chefchaouen, a hidden gem in Morocco."
+    },
+    {
+        "id": 5,
+        "slug": "fes-historical-tour",
+        "title": "Step Back in Time: Fes Historical Tour",
+        "introduction": "Fes is one of the oldest cities in Morocco, rich in history and culture.",
+        "content": "This one-day tour will take you through the ancient Medina, where you can visit the Al Quaraouiyine University, the oldest existing university in the world, and explore traditional tanneries. Experience the vibrant atmosphere of the city and learn about its historical significance.",
+        "conclusion": "Join us for a journey through time in Fes, where history comes alive."
+    },
+    {
+        "id": 6,
+        "slug": "essaouira-coastal-excursion",
+        "title": "Essaouira: A Coastal Gem",
+        "introduction": "Visit the coastal city of Essaouira, known for its beautiful beaches and historic medina.",
+        "content": "This one-day excursion allows you to explore the vibrant arts scene, enjoy fresh seafood, and relax on the beach. The city's unique blend of Moroccan and Portuguese architecture makes it a fascinating place to visit.",
+        "conclusion": "Experience the charm of Essaouira, where the ocean meets history."
+    },
+    {
+        "id": 7,
+        "slug": "casablanca-city-tour",
+        "title": "Casablanca: The Heart of Morocco",
+        "introduction": "Casablanca is a modern city that offers a glimpse into Morocco's contemporary culture.",
+        "content": "On this guided tour, visit the iconic Hassan II Mosque, stroll along the Corniche, and explore the Royal Palace. Discover the city's rich history and vibrant atmosphere, making it a perfect day trip.",
+        "conclusion": "Join us for a day in Casablanca, where tradition meets modernity."
+    },
+    {
+        "id": 8,
+        "slug": "ouzoud-waterfalls-tour",
+        "title": "Ouzoud Waterfalls: Nature's Masterpiece",
+        "introduction": "The Ouzoud Waterfalls are one of Morocco’s most beautiful natural attractions.",
+        "content": "This one-day tour takes you to the stunning cascades, where you can hike, swim, and enjoy a picnic by the falls. The surrounding landscape is perfect for photography and relaxation.",
+        "conclusion": "Experience the beauty of nature at Ouzoud Waterfalls, a perfect escape from the city."
+    },
+    {
+        "id": 9,
+        "slug": "merzouga-desert-experience",
+        "title": "Merzouga Desert Experience: A Four-Day Adventure",
+        "introduction": "Journey into the heart of the Merzouga Desert for an unforgettable experience.",
+        "content": "This four-day tour includes camel rides, sandboarding, and nights spent under the stars. Explore the unique landscapes and immerse yourself in the local culture, making this a truly enriching experience.",
+        "conclusion": "The Merzouga Desert awaits you with its enchanting beauty and adventure."
+    },
+    {
+        "id": 10,
+        "slug": "tangier-and-asilah-day-trip",
+        "title": "Tangier and Asilah: A Day of Discovery",
+        "introduction": "Explore the northern cities of Tangier and Asilah, known for their historical medinas and coastal charm.",
+        "content": "This one-day trip allows you to experience the rich history and vibrant culture of these cities. Visit local markets, enjoy delicious cuisine, and take in the stunning coastal views.",
+        "conclusion": "Join us for a day of discovery in Tangier and Asilah, where history and beauty meet."
+    },
+    {
+        "id": 11,
+        "slug": "meknes-and-volubilis-tour",
+        "title": "Meknes and Volubilis: A Historical Journey",
+        "introduction": "Discover the imperial city of Meknes and the ancient Roman ruins of Volubilis.",
+        "content": "This one-day tour takes you through the rich history of Morocco, exploring the grand architecture of Meknes and the well-preserved ruins of Volubilis. Learn about the significance of these sites and their impact on Moroccan history.",
+        "conclusion": "Experience the historical treasures of Meknes and Volubilis on this enriching tour."
+    },
+    {
+        "id": 12,
+        "slug": "agadir-beach-day",
+        "title": "Relaxation at Agadir Beach",
+        "introduction": "Agadir is known for its beautiful beaches and sunny weather, making it a perfect destination for relaxation.",
+        "content": "On this one-day beach day, enjoy the sun, sand, and sea. Optional water sports and seaside activities are available for those looking for adventure. Relax and unwind in this coastal paradise.",
+        "conclusion": "Join us for a day of relaxation at Agadir Beach, where the sun shines bright."
+    },
+    {
+        "id": 13,
+        "slug": "rabat-city-tour",
+        "title": "Rabat: The Capital City Tour",
+        "introduction": "Rabat, the capital of Morocco, is a city rich in history and culture.",
+        "content": "This one-day tour includes visits to the Hassan Tower, Royal Palace, and the Kasbah of the Udayas. Explore the city's historical sites and enjoy its beautiful gardens and coastal views.",
+        "conclusion": "Discover the charm of Rabat, where history and modernity coexist."
+    },
+    {
+        "id": 14,
+        "slug": "dades-valley-and-todra-gorge",
+        "title": "Dades Valley and Todra Gorge: A Scenic Tour",
+        "introduction": "Experience the stunning landscapes of Dades Valley and the impressive Todra Gorge.",
+        "content": "This two-day tour takes you through breathtaking scenery, with stops at kasbahs and oases. Enjoy hiking and exploring the natural beauty of the region, making it a perfect adventure for nature lovers.",
+        "conclusion": "Join us for a scenic journey through Dades Valley and Todra Gorge, where nature's beauty awaits."
+    },
+    {
+        "id": 15,
+        "slug": "ait-benhaddou-kasbah-tour",
+        "title": "Ait Benhaddou: A UNESCO World Heritage Site",
+        "introduction": "Visit the famous Ait Benhaddou Kasbah, a UNESCO World Heritage site featured in many movies.",
+        "content": "On this one-day tour, explore the stunning architecture and learn about the history of this iconic site. The kasbah's picturesque setting makes it a perfect spot for photography and exploration.",
+        "conclusion": "Experience the magic of Ait Benhaddou, a place where history and film come together."
+    },
+    {
+        "id": 16,
+        "slug": "ouarzazate-film-studio-tour",
+        "title": "Ouarzazate: The Hollywood of Morocco",
+        "introduction": "Explore Ouarzazate, known as the 'Hollywood of Morocco,' and its famous film studios.",
+        "content": "This one-day tour includes visits to the Atlas Film Studios and the Kasbah Taourirt. Learn about the film industry in Morocco and the many movies filmed in this stunning region.",
+        "conclusion": "Join us for a fascinating day in Ouarzazate, where film history comes alive."
+    },
+    {
+        "id": 17,
+        "slug": "tangier-to-chefchaouen-overnight",
+        "title": "Tangier to Chefchaouen: An Overnight Getaway",
+        "introduction": "Escape to the enchanting blue city of Chefchaouen from Tangier for a short getaway.",
+        "content": "This two-day tour includes an overnight stay in Chefchaouen, allowing you to fully explore its charming streets and vibrant culture. Enjoy the local cuisine and relax in this picturesque town.",
+        "conclusion": "Experience the beauty of Chefchaouen on this unforgettable overnight adventure."
+    },
+    {
+        "id": 18,
+        "slug": "marrakech-to-zagora-desert-tour",
+        "title": "Marrakech to Zagora Desert: A Quick Escape",
+        "introduction": "Take a quick desert escape to Zagora with this two-day tour.",
+        "content": "Experience camel rides and spend a night in a desert camp, immersing yourself in the beauty of the desert landscape. This tour offers a perfect blend of adventure and relaxation.",
+        "conclusion": "Join us for a memorable journey to Zagora, where the desert awaits."
+    },
+    {
+        "id": 19,
+        "slug": "moroccan-cooking-class",
+        "title": "Learn the Art of Moroccan Cooking",
+        "introduction": "Join our half-day cooking class and learn to cook traditional Moroccan dishes.",
+        "content": "This hands-on experience in Marrakech will teach you the secrets of Moroccan cuisine, from spices to techniques. Enjoy the delicious dishes you create and take home new skills to impress your friends and family.",
+        "conclusion": "Discover the flavors of Morocco and enhance your culinary skills with our cooking class."
+    },
+    {
+        "id": 20,
+        "slug": "high-atlas-trekking-adventure",
+        "title": "High Atlas Trekking Adventure: Explore the Mountains",
+        "introduction": "Trek through the stunning High Atlas Mountains on this three-day adventure.",
+        "content": "Explore remote Berber villages and breathtaking landscapes, immersing yourself in the natural beauty of the region. This trek offers a unique opportunity to connect with nature and experience the local culture.",
+        "conclusion": "Join us for an unforgettable trekking adventure in the High Atlas Mountains, where every step reveals a new wonder."
+    }
+]
